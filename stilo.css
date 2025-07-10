@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: #e7dee3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*********************************************** navBar *************************************/
+.nav-decoretion{background-color: #352151;}
+.nav-link{ color: rgb(255, 255, 255); }
+.nav-item{color: #ffffff;}
+.navbar-brand{  color: #ffffff;}
+
+
+
+#navbarSupportedContent{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-fluid{   
+
+background-color: #352151;
+
+
+}
+
+
+.center{
+    background-color:#bea4b5;
+    text-align: left;
+    height: 100vh;
+    border-bottom-right-radius:80%;
+    border-bottom-left-radius: 80%;
+}
+.conteudo{
+margin-left: 10%;
+display: flex;
+flex-direction: column;
+gap: 0px;
+text-align: left;}
+
+.textonobu {font-size: 3rem}
+
+
+.mudar-cor-botão{ color: #ffffff;;}
+.btn.btn-lg{background-color:#352150;}
+.btn-lg{color: #ffffff;}
+
+
+
+.textonobu{font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;}
+
+.textonobu{color: #352150;text-align: left; margin-top: 2%;}
+
+ .conteudo{color:#612e68; text-align: left; margin-top: 5%; font-size:5%;
+ font-family: "Alfa Slab One", serif;
+  font-weight: 500;
+  font-style: normal;;}
+
+.mudar-cor-botão{margin-left: 5%;}
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1); /* Deixa o ícone branco */
+  }
+
+/*********************************************** Sobre Nos *************************************/
+
+.div-sobre-nos{
+
+  color: #352150;
+  height: 100vh;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.imagem-mascote {
+  width: 90%;              /* Ajuste como quiser */
+  display: block;
+  margin-top: 10%;
+  
+}
+
+.div-logo {
+  text-align: center;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+/*********************************************** produtos *************************************/
+
+.row > .col {
+  padding: 2px;
+}
+
+.style-card {
+  background-color: #612e68;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-care{
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20%;
+
+}
+
+.bnt-card{
+    background-color: #f0f0f0;
+    color: #612e68;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20%;
+   
+}
+
+.corpo-body{
+    color: #f0f0f0;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-body{
+    height: 70vh;
+}
+
+/*********************************************** comentario *************************************/
+
+.div-comentario{
+    background-color: #E7DEE3;
+    margin: 0;
+    color: #352150;
+    margin: 5% auto;
+}
+
+.div-nome-aluno{
+      background-color: #E7DEE3;
+    margin: 0;
+    color: #352150;
+    text-align: center;
+}
+
+.paragrafo-comentario{
+   margin-bottom: 50px;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+.comentario{
+     text-align:sente ;
+}
+/*********************************************** carrinho de compra *************************************/
+.div-carrinho{
+  background: linear-gradient(180deg,#d3c8d0, #bba3ac, #996fb1);
+  margin: 0;
+  color: #352150;
+  text-align: center;
+  width: 100%;
+}
+
+.container-produto{
+  background-color: rgba(255, 255, 255, 0.26); 
+  width: 80%;
+  margin-left: 20%;
+  height: 80vh;
+}
+
+.imagem-carrinho{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.div-resumo{
+  width: 90%;
+}
+
+/*********************************************** footer *************************************/
+
+
+.foot{
+    background-color: #bea4b5;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  font-family: monospace;
+  color: #170231;
+}
+.conteudo-text{
+    width: 50%;
+        margin-top: 5%;
+}
+.titulo{
+    font-size: 3rem;
+}
+
+.titulo-foote{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .center{
+    height: auto;
+  }
+  .textonobu{
+    font-size: 2rem;
+  }
+  .text-title-noBull{
+    margin-top: 10%;
+    font-size: 1.5rem;
+  }
+   .img-capa {
+      max-width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+    h1.text-title-noBull {
+      font-size: 2.2rem; /* diminuir título no celular */
+    }
+
+  .div-sobre-nos{
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+  }
+  .div-nome-aluno{
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+    font-weight: bold;
+  }
+
+  .container-produto{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+
+  .div-resumo{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+  .titulo{
+    font-size: 1.5rem;
+}
+
+.conteudo-text{
+    margin-top: 10%;
+}
+}

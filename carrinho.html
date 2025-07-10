@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrinho de Compra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stilo.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top p-0 m-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbarSupportedContent">
+                <li class="nav-item">
+                  <a class="nav-link  devoration-2" aria-current="page" href="index.html">🏠 Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  devoration-2" aria-current="page" href="index.html">🧸Sobre o Mascote</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">📦Produto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">💬Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="carrinho.html">🛒Carrinhos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">📞 Contato</a>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="div-carrinho  py-4">
+        <h1 class="text-center mb-4" style="margin-top: 5%;">SEU CARRINHO DE COMPRAS</h1>
+        <div class="row">
+            
+            <!-- PRODUTOS -->
+            <div class="col-md-8">
+            <div class="container-produto bg-white bg-opacity-50 p-3 rounded">
+                
+                <!-- ITEM 1 -->
+                <div class="row align-items-center mb-3 produto" >
+                <div class="col-3">
+                    <img src="./imagens/download.png" alt="imagem-mascote" class="img-fluid rounded w-100">
+                </div>
+                <div class="col-5">
+                    <p class="mb-1"><strong>Mini NoBullynho em feltro</strong></p>
+                    <p class="text-muted preco">R$10,00</p>
+                </div>
+                <div class="col-2">
+                    <input type="number" class="form-control quantidade" id="quant-mascote" value="0" min="0" onchange="calcularTotal()">
+                </div>
+                <div class="col-2 text-end">
+                    <p class="fw-bold">R$10,00</p>
+                </div>
+                </div>
+
+                <!-- ITEM 2 -->
+                <div class="row align-items-center mb-3 produto">
+                <div class="col-3">
+                    <img src="./imagens/adesivo.png" alt="imagem-adesivo" class="img-fluid rounded w-100">
+                </div>
+                <div class="col-5">
+                    <p class="mb-1"><strong>Kit de Adesivos Temáticos</strong></p>
+                    <p class="text-muted preco">R$5,00</p>
+                </div>
+                <div class="col-2">
+                    <input type="number" class="form-control quantidade" id="quant-adesivo" value="0" min="0" onchange="calcularTotal()">
+                </div>
+                <div class="col-2 text-end">
+                    <p class="fw-bold">R$5,00</p>
+                </div>
+                </div>
+
+                <!-- ITEM 3 -->
+                <div class="row align-items-center mb-3 produto">
+                <div class="col-3">
+                    <img src="./imagens/marca-Texto.png" alt="imagem-marca-texto" class="img-fluid rounded " style="width: 50px; height: 100px;">
+                </div>
+                <div class="col-5">
+                    <p class="mb-1"><strong>Marca-Páginas NoBullynho</strong></p>
+                    <p class="text-muted preco">R$3,00</p>
+                </div>
+                <div class="col-2">
+                    <input type="number" class="form-control quantidade" id="quant-marca-texto" value="0" min="0" onchange="calcularTotal()">
+                </div>
+                <div class="col-2 text-end">
+                    <p class="fw-bold">R$3,00</p>
+                </div>
+                </div>
+
+            </div>
+            </div>
+
+            <!-- RESUMO -->
+            <div class="col-md-4">
+            <div class="bg-white bg-opacity-50 p-3 rounded div-resumo">
+                <h5>Resumo do Carrinho</h5>
+                <hr>
+                <p class="d-flex justify-content-between" id="total">
+                <span>Total:</span> <span><strong>R$0,00</strong></span>
+                </p>
+                <button class="btn btn-primary w-100 mt-3" onclick="finalizarCompra()">Finalizar Compra</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

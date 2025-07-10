@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stilo.css">
+    
+  </head>
+   
+  <body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top p-0 m-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbarSupportedContent">
+                <li class="nav-item">
+                  <a class="nav-link  devoration-2" aria-current="page" href="index.html">🏠 Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  devoration-2" aria-current="page" href="#sobre-mascote">🧸Sobre o Mascote</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link  devoration-2" aria-current="page" href="#sobre-nos">🤝Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#produtos">📦Produto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#depoimentos">💬Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="carrinho.html">🛒Carrinhos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contato">📞 Contato</a>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="center" id="sobre-mascote">
+      <div class="container text-center">
+        <div class="row gx-1 align-items-center">
+          <!-- Coluna 1: texto -->
+          <div class="col-12 col-md-6">
+            <div class="conteudo">
+              <h1 style="font-size: 3rem;" class="text-title-noBull">NoBull</h1>
+              <div class="textonobu"> 
+                Adote o seu NoBullynho e ajude a combater o bullying com amor!
+                <div class="mudar-cor-botão mt-3">
+                  <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?" onclick="window.location.href='carrinho.html'">
+                    Compre agora - R$10,00
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: imagem -->
+          <div class="col-12 col-md-6">
+            <img src="./imagens/download.png" alt="imagem-mascote" class="img-capa img-fluid">
+          </div>
+        </div>
+      </div>       
+    </div>
+
+    <div class="div-sobre-nos container" id="sobre-nos">
+      <div class="row gx-1 align-items-center">
+        <div class="col-12 col-md-4 text-center text-md-start">
+          <div class="div-logo">
+            <img src="./imagens/adesivo.png" alt="NoBullynho" class="imagem-mascote img-fluid">
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <h1 class="text-center text-md-start" style="margin: 10%;">🧡Sobre Nós</h1>
+          <div>
+            <p class="space-mono-regular">Somos uma turma do ensino médio apaixonada por transformar a escola em um lugar mais seguro, acolhedor e feliz. Inspirados pelo aplicativo <b>NOBULL – Prevenção e Denúncia de Bullying</b>, criamos o NoBullynho, nosso mascote símbolo da empatia, do cuidado e da escuta.</p>
+            <p class="space-mono-regular">O NoBullynho nasceu durante o <b>SEDUCKHATON</b>, um evento de inovação promovido pela SEDUC, onde fomos desafiados a encontrar soluções reais para problemas da escola. Com criatividade e muito trabalho em equipe, desenvolvemos o app NOBULL e o mascote que representa tudo o que acreditamos: <b>💬 falar faz bem, 👂 ouvir com respeito transforma e 💛 ninguém deve se sentir invisível</b>.</p>
+            <p class="space-mono-regular">Cada mascotinho é <b>feito à mão pelos próprios alunos</b>, com muito carinho, tecido de feltro e propósito. A venda dessas miniaturas não é só uma forma de arrecadar recursos — é também uma forma de espalhar a mensagem do nosso projeto por toda a escola e além dela.</p>
+            <p class="space-mono-regular">Ao adotar um NoBullynho, você apoia uma causa, valoriza o protagonismo juvenil e ajuda nossa turma a <b>seguir em frente com ações de impacto social e educacional</b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center my-4" id="produtos">
+      <div class="row row-cols-1 row-cols-md-3 gx-0 gy-3">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card style-card h-100">
+            <div class="corpo-body d-flex flex-column h-100">
+              <div class="card-body">
+                <h5 class="card-title title-care">Mini NoBullynho em feltro 12 cm</h5>
+                <p class="card-text">O mascote mais fofo da escola agora pode ser seu!
+                  Essa versão do NoBullynho foi feita à mão com muito carinho pelos alunos do projeto, usando feltro colorido e enchimento antialérgico, ideal para presentear ou carregar como símbolo de apoio à luta contra o bullying.</p>
+              </div>
+              <div class="mt-auto text-center mb-3">
+                <a href="carrinho.html" class="btn bnt-card">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card style-card h-100">
+            <div class="corpo-body d-flex flex-column h-100">
+              <div class="card-body">
+                <h5 class="card-title title-care">Kit de Adesivos Temáticos – R$3,00</h5>
+                <p class="card-text">Decore seu caderno, celular ou mural com as expressões mais fofas do NoBullynho. 
+                  O kit contém 5 adesivos exclusivos com frases de apoio, emojis emocionais e poses especiais do mascote.</p>
+              </div>
+              <div class="mt-auto text-center mb-3">
+                <a href="carrinho.html" class="btn bnt-card">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card style-card h-100">
+            <div class="corpo-body d-flex flex-column h-100">
+              <div class="card-body">
+                <h5 class="card-title title-care">Marca-Páginas Personalizado NoBullynho</h5>
+                <p class="card-text">Leve a fofura e a mensagem de empatia do NoBullynho também para os seus livros e cadernos!
+                  Além de organizar seus estudos ou leituras, ele carrega frases de incentivo para lembrar que você não está sozinho e que juntos, podemos construir uma escola sem bullying!</p>
+              </div>
+              <div class="mt-auto text-center mb-3">
+                <a href="carrinho.html" class="btn bnt-card">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-comentario" id="depoimentos">
+  <div class="row gx-1">
+    <div class="col text-center mb-4">
+      <h1 class="space-mono-regular">DEPOIMENTOS</h1>
+    </div>
+  </div>
+
+  <div class="row gx-3 gy-3 align-items-start">
+    <div class="col-12 col-md-4">
+      <p class="div-nome-aluno space-mono-regular">LUCAS, 14 ANOS</p>
+    </div>
+    <div class="col-12 col-md-8">
+      <p class="paragrafo-comentario space-mono-regular">
+        Antes do NoBull, eu me sentia sozinho e com medo de contar o que acontecia na escola. Com o app, pude fazer denúncias anônimas e conversar com profissionais que me ajudaram de verdade. Hoje, me sinto mais seguro e apoiado. O NoBull é como um amigo invisível que está sempre comigo.
+      </p>
+    </div>
+  </div>
+
+  <div class="row gx-3 gy-3 align-items-start">
+    <div class="col-12 col-md-4">
+      <p class="div-nome-aluno space-mono-regular">ANA PAULA, COORDENADORA PEDAGOGICA</p>
+    </div>
+    <div class="col-12 col-md-8">
+      <p class="paragrafo-comentario space-mono-regular">
+        O NoBull revolucionou a forma como acompanhamos casos de bullying na nossa escola. Com a plataforma, conseguimos monitorar denúncias em tempo real, identificar padrões e agir rapidamente para proteger nossos alunos. É uma ferramenta essencial para criar um ambiente mais saudável e acolhedor.
+      </p>
+    </div>
+  </div>
+
+  <div class="row gx-3 gy-3 align-items-start">
+    <div class="col-12 col-md-4">
+      <p class="div-nome-aluno space-mono-regular">MARCOS, PAI DE UMA ALUNA DO ENSINO MEDIO</p>
+    </div>
+    <div class="col-12 col-md-8">
+      <p class="paragrafo-comentario space-mono-regular">
+        Meu filho sempre teve dificuldade para falar sobre o que vivia na escola, mas com o NoBull ele se sentiu confortável para registrar seus sentimentos e pedir ajuda. O app trouxe mais tranquilidade para toda a família, porque sabemos que ele está sendo escutado e protegido.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+    
+  <div class="foot" id="contato">
+    <div class="conteudo-text">
+      <p class="titulo">SUA VOZ IMPORTA.AQUI, VOCÊ É OUVIDO.</p>
+      <p class="titulo-foote">Endereço</p>
+      <p>R. Anchieta, 2461 - Itararé, Teresina - PI, 64078-255</p>
+      <p class="titulo-foote">E-mail</p>
+      <p>Ceti.agnelo@gmail.com</p>
+      <p class="titulo-foote">Telefone</p>
+      <p>(86) 9 9598-0258</p>
+    </div>
+  </div>
+
+  
+  <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
