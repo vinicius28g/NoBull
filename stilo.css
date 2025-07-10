@@ -43,7 +43,11 @@ flex-direction: column;
 gap: 0px;
 text-align: left;}
 
-.textonobu {font-size: 3rem}
+.textonobu {font-size: 2rem}
+.text-title-noBull{
+  margin-top: 5%;
+
+}
 
 
 .mudar-cor-botão{ color: #ffffff;;}
@@ -241,7 +245,7 @@ text-align: left;}
         margin-top: 5%;
 }
 .titulo{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .titulo-foote{
